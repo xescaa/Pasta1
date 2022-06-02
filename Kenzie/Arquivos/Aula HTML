@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- HEAD SERVE PRA COLOCAR AS CONFIGUS COMO HORARIO, TITULO ETC-->
+
+<head>
+
+    <meta charset="UTF-8">
+    <title> Aula de html
+
+</HTML>
+</title>
+
+</head>
+
+<body>
+    <!-- <p> para paragrafo </p>
+    <h1> para titulos </h1>
+    <h2> ate h6 para subtitulos </h2>
+    h1 tem fonte maior, diminui a cada subtitulo
+-->
+    <!--LISTAS ordenadas (www.w3school.com)-->
+
+    <ol>
+        <li>modulo 1</li>
+        <li>modulo 2 </li>
+        <li>modulo 3 </li>
+    </ol>
+
+    <!--LISTA nao ordenada -->
+    <ul>
+        <li>modulo 1</li>
+        <li>modulo 2 </li>
+        <li>modulo 3 </li>
+    </ul>
+
+    <!-- LINKS (a = anchor) (href = referenciar com link)-->
+    <a> href="https://kenzie.com.br/" target= "_blank">site da kenzie</a>
+
+
+</body>
+
+</html>

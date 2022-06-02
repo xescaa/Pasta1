@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <!--Cada participante deve entrar com seu nome e e-mail, e esses campos devem ser obrigatórios, pois, todos receberão os detalhes do evento via e-mail.-->
+    <!--Deve haver um campo de descrição, onde o usuário vai descrever o que o motivou participar do evento.-->
+    <!--Deve haver um campo que permita o usuário selecionar, seu módulo no curso da Kenzie.-->
+    <!--No final o usuário deverá. obrigatoriamente cadastrar uma senha.-->
+    <!--Iremos precisar perguntar ao usuário se ele deseja receber novidades em seu email, e para isso fornecer duas opções, sim ou não. clicar em enviar para concluir seu cadastro para o evento.-->
+
+    <form>
+        <label for="seunome">Seu Nome</label>
+        <input type="text" id="seunome" name="nome" placeholder="Digite seu nome aqui..." required="true" maxlength="50">
+        
+        <label for="seuemail">Seu e-mail</label>
+        <input type="text" id="seuemail" name="e-mail" placeholder="Digite seu e-mail aqui" required="true" maxlength="50">        
+    </form>
+    <br>
+    <form>
+        <textarea placeholder="Descreva aqui o que te motivou a participar do evento" name="areatexto" id="areatexto" cols="40" rows="10" ></textarea>
+    </form>
+    <br>
+    <form>
+        <label for="Turmakenzie">Turma Kenzie</label>
+        <select name="Turmakenzie" required id="Turmakenzie" >
+            <option value="">Qual é a sua turma da Kenzie?</option>
+            <option value="M1">M1</option>
+            <option value="M2">M2</option>
+            <option value="M3">M3</option>
+            <option value="M4">M4</option>
+            <option value="M5">M5</option>
+            <option value="M6">M6</option>
+        </select>
+    </form> 
+    <br>   
+    <form>
+        <label for="senha">Crie sua senha</label>
+        <input type="password" id="senha" placeholder="Digite aqui sua senha" maxlength="10" required >
+        
+        <label for="csenha">Confirme sua senha</label>
+        <input type="password" id="csenha" placeholder="Repetir senha" maxlength="10" required >
+    </form>
+    
+    <form>
+        <p>Você deseja receber novidades por e-mail?</p>
+        <label for="sim">Sim</label>
+        <input type="radio" name="aceitareceber" id="sim">
+        <label for="nao">Não</label>
+        <input type="radio" name="aceitareceber" id="nao" >
+    </form>
+    <br>
+    <button type="submit">Enviar</button>
+
+</body>
+</html>
