@@ -1,0 +1,26 @@
+/* font-family: 'Poppins', sans-serif; */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.title-main{
+font-weight: 600;
+
+}
+
+.span-azul{ 
+    color: blue;
+}
+
+.background-blue{
+    background-color: blue;
+    color: aliceblue;
+}
+.background-black{
+    background-color: black;
+    color: aliceblue;
+}
+
+h1, .background-black {
+    text-align: center;
+}
