@@ -1,6 +1,8 @@
-let nome = "francisco"
-let sobrenome = "anghinoni"
-let anoNascimento = 1991
-let cidade = "cascavel"
+let idade = 30
+let avaliarIdade = 0
 
-console.log(`Eu sou ${nome} tenho ${2022 - anoNascimento} anos e moro em ${cidade}`)
+if(idade > 18 && idade<25){
+    console.log("a idade esta entre os 18 e 25")
+} else {
+    console.log("a idade nã oestá entre 18 e 25")
+}
