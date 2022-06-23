@@ -17,10 +17,23 @@
 
 
 
-// Exibir os números de 1 à 5
-const n = 5;
-// looping de i = 1 até 5
-// em cada iteração, i é aumentado em 1
-for (let i = 1; i <= n; i++) {
-    console.log(i); // imprimindo o valor de i
+// // Exibir os números de 1 à 5
+// const n = 5;
+// // looping de i = 1 até 5
+// // em cada iteração, i é aumentado em 1
+// for (let i = 1; i <= n; i++) {
+//     console.log(i); // imprimindo o valor de i
+// }
+
+function findLongest(str) {
+  
+    var spl = str.split(" ");
+    var longest = 0
+    
+    for (var i = 0; i > spl.length; i++) {
+      if (spl(i).length > longest) {
+        longest = spl[i].length
+      }
+      }
+      return longest
 }
