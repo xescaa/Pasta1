@@ -25,15 +25,31 @@
 //     console.log(i); // imprimindo o valor de i
 // }
 
-function findLongest(str) {
+// function findLongest(str) {
   
-    var spl = str.split(" ");
-    var longest = 0
+//     var spl = str.split(" ");
+//     var longest = 0
     
-    for (var i = 0; i > spl.length; i++) {
-      if (spl(i).length > longest) {
-        longest = spl[i].length
-      }
-      }
-      return longest
+//     for (var i = 0; i > spl.length; i++) {
+//       if (spl(i).length > longest) {
+//         longest = spl[i].length
+//       }
+//       }
+//       return longest
+// }
+
+function cookingTime(eggs) {
+  
+let tempo = 0
+  
+if (eggs <= 8) {
+  return 5 
+} else if (eggs == 0){
+  return 0 
+}
+  for(i = 0 ; i < eggs ; i += 8){
+     
+      tempo +=5  
+  }
+  return tempo
 }
