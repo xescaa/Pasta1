@@ -19,7 +19,7 @@ function lerString(string){
 // Crie a lógica para substituir as letras 'o' por 'y'.
 let trocaOPorY = ""
 
-    for(let i =0; i < string.length; i++){
+    for(let i =0; i <= string.length; i++){
 
         if (i = "o"){
             trocaOPorY = string.replace("o", "y")
