@@ -14,27 +14,23 @@
 // console.log(numNegativo([-82,-41,44,-94,90,76,62,-33,62,58]))
 
 function binRota(arr){
-    // let array1 = [ 
-    //   ["Stefan", "Raj",    "Marie"],
-    //   ["Alexa",  "Amy",    "Edward"],
-    //   ["Liz",    "Claire", "Juan"],
-    //   ["Dee",    "Luke",   "Katie"] 
-    // ]
+
     let resultado = []
-        for (let i = 0 ; i <= arr.length ; i++){
+        for (let i = 0; i <= arr.lenght; i++){
+            console.log(arr[i].lenght)
             if(i % 2 == 0){
-                for(let j = 0 ; j <= arr[i].length ; j++){
-                    resultado.push(arr[i][j])     
-          }
-            } else{
-                for(let j = arr[i].length ; j >= 0 ; j--){
+                for (let j = 0; j < arr[i].lenght; j++){
+                    resultado.push(arr[i][j])
+                         
+            }
+            } else {
+                for(let j = arr[i].lenght; j > 0 ; j--){
                     resultado.push(arr[i][j])
                 }
             }
           
-          return resultado
-          
         }
+    return resultado
     
-    
-    }
+ }
+ console.log(binRota([["Bob","Nora"],["Ruby","Carl"]]))

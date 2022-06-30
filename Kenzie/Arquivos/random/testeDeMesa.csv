@@ -1,0 +1,7 @@
+i	i>0	i == num1	"i !== num1 "	return	i--
+5	true	true	false	na	4
+4	true	false	true	5x4=20	3
+3	true	false	true	5x4x3=60	2
+2	true	false	true	5x4x3x2=120	1
+1	true	false	true	120	0
+0	false				
