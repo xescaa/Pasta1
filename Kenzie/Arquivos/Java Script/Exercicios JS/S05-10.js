@@ -12,19 +12,23 @@ function lerString(string){
    
 
 // Crie a lógica para deixar todas as letras em maiúsculo.
-// let stringMaiuscula = string.toUpperCase()  
+    // let stringMaiuscula = string.toUpperCase()  
 //     return stringMaiuscula
 
 
 // Crie a lógica para substituir as letras 'o' por 'y'.
-let trocaOPorY = ""
-    console.log(string.replace(/o/g, 'y') )
 
-    
-       
+    // console.log(string.replace(/o/gi, 'y') )
 
-        
+// Crie a lógica para remover as letras repetidas.
     
+let novaString = ""
+
+    for (let i = 0; i <= string.legth; i++){
+        if ()
+
+
+       }
 
 
 }
