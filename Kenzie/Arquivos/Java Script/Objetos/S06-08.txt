@@ -1,0 +1,32 @@
+Exercício 1 - Qual a idade da pessoa ?
+Desenvolva uma função que recebe como parâmetro o objeto pessoa e retorne a idade em anos.
+O cálculo estará incompleto, pois não estaremos tratando o dia e o mês de nascimento. Não se preocupe, use apenas o ano atual e o ano de nascimento como base.
+
+
+Exercício 2 - Normalizando a informação nome
+Desenvolva uma função que recebe como parâmetro o objeto pessoa e retorne a propriedade nome com apenas a primeira letra em maiúsculo.
+
+
+Exercício 3 - Inserindo usuário na lista de usuários
+Desenvolva uma função que recebe como parâmetro o objeto pessoa.
+Esta função irá armazenar o objeto pessoa em uma lista de usuários.
+Não é permitido que o nomeDeUsuario esteja em letras maiúsculas, portanto converta para minúsculas e retorne a lista de usuários.
+
+
+Exercício 4 - Consultando se a pessoa tem direito a vale
+Desenvolva uma função que recebe como parâmetro o objeto pessoa.
+Esta função deverá verificar se a propriedade temCarro é true ou false, caso seja verdadeiro a pessoa deverá ter a propriedade valeCombustivel alterada.
+Para realizar o cálculo do vale use a seguinte fórmula.
+valeCombustivel = ( distanciaDoTrabalho * valorDoLitro ) * 0,7
+Você deverá tratar a variável distanciaDoTrabalho, pois ela é uma string, use apenas o valor numérico
+Vamos adotar que o valor do litro é R$6.99
+Retorne o valor em reais(string no formato R$ 0,00)
+
+
+Exercício 5 - Inserindo o tipo da casa
+Crie uma função que recebe como parâmetro um objeto endereco. Insira o tipo: 'Casa' na propriedade tipo e retorne o objeto atualizado.
+
+
+Exercício 6 - Inserindo endereço ao objeto pessoa
+Crie uma função que recebe como parâmetro um objeto endereco e um objeto pessoa.
+Insira o endereco na lista de endereco do objeto pessoa e retorne o objeto pessoa atualizado, com a nova informação de endereço.
