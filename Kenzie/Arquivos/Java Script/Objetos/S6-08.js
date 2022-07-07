@@ -74,6 +74,6 @@ function adicionarTipo(endereco){
     pessoa.endereco.push(endereco)
     console.log(pessoa)
 
-      
+  
   }
   inserirPessoa(endereco, pessoa)
