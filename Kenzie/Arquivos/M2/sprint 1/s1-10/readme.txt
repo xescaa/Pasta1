@@ -1,0 +1,2 @@
+Par ou _Impar?
+Cada palavra do nosso banco de dados de strings pode possuir um número par ou impar de letras, sua função nessa atividade deverá verificar essa condição da string, colocando um _ no final de cada palavra que é impar!
