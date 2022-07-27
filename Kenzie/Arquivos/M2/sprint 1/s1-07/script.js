@@ -17,8 +17,6 @@ function trabalhoEmDobro(array) {
   }
   console.log(trabalhoEmDobro(dataBase))
 
-
-
 //   function trabalhoEmDobro(array) {
     
 //     const newDataFiltered = []
@@ -34,5 +32,26 @@ function trabalhoEmDobro(array) {
  
 // }
 // console.log(trabalhoEmDobro(dataBase))
+
+// -------------------------------------------------------------------
+
+function zerosNoFim(listaDeLivros) {
+  
+    let array1 = []
+   
+   
+    listaDeLivros = listaDeLivros.filter(element => {
+      if (element.inventory == 0){
+         array1.push(element)
+      } else { 
+        return element
+      }
+    })
+    listaDeLivros.push(...array1)
+    console.log(array1, listaDeLivros)
+  
+  }
+  zerosNoFim(dataBase)
+
 
 
